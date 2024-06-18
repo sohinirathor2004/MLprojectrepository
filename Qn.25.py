@@ -1,0 +1,5 @@
+file = open(r"C:\Users\dell\OneDrive\Desktop\demo.txt", "r")
+content=file.read()
+file_copy=open("copy.txt","w")
+b=file_copy.write(content)
+print(b)
